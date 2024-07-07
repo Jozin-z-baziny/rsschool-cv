@@ -225,6 +225,10 @@ h6 {
    -webkit-text-stroke: 1px #b10808;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 /*! MAIN */
 
 ul {
