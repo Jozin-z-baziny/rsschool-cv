@@ -119,3 +119,205 @@ h6 {
    font-size: inherit;
    font-weight: inherit;
 }
+/* reset css */
+
+@font-face {
+   font-family: "Georgia";
+   src:
+      url("Georgia.woff2") format("woff2"),
+      url("Georgia.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* setting font */
+
+body {
+   line-height: 18px;
+   font-size: 14px;
+   color: black;
+}
+
+.wrapper {
+   padding: 0px 15px;
+   max-width: 1140px;
+   margin: 0 auto;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+/* H */
+
+h1 {
+   font-family: "Georgia";
+   font-size: 25px;
+   color: rgb(255, 128, 0);
+}
+
+h2 {
+   font-size: 22px;
+   letter-spacing: 1px;
+   margin: 25px 0px 10px 0px;
+}
+
+h3,
+h4 {
+   font-weight: bold;
+   font-size: 18px;
+}
+
+h3 {
+   color: rgb(13, 100, 49);
+   margin: 5px 0px 10px 15px;
+}
+
+h6 {
+   line-height: 1px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/*! HEADER */
+
+.header__container {
+   display: flex;
+   min-height: 80px;
+   align-items: center;
+}
+.header__logo {
+   margin: 0px 15px;
+   display: flex;
+   align-items: center;
+}
+.header__logo-box {
+   height: 60px;
+   width: 120px;
+   font-size: 36px;
+   font-weight: 900;
+   color: #000;
+   line-height: 27px;
+   text-transform: uppercase;
+}
+.first-p span {
+   margin-left: 24px;
+}
+.header__logo-box p span {
+   letter-spacing: -3px;
+}
+.header__menu {
+   flex: 1 1 auto;
+}
+.menu__list {
+   display: flex;
+   justify-content: flex-end;
+}
+.menu__item a {
+   margin-left: 25px;
+   color: #000;
+   font-size: 22px;
+}
+.menu__item a:hover {
+   transition: 1s;
+   color: rgb(255, 255, 255);
+   -webkit-text-stroke: 1px #b10808;
+}
+
+/*! MAIN */
+
+ul {
+   margin: 0px 0px 0px 25px;
+}
+
+li {
+   font-size: 16px;
+   line-height: 25px;
+}
+
+li span {
+   color: rgb(13, 100, 49);
+   font-weight: 600;
+}
+
+.person {
+   margin: 15px 0px 0px 0px;
+}
+.person h1 {
+   margin: 15px 15px;
+}
+
+.code p {
+   font-size: 16px;
+   line-height: 25px;
+   margin: 0px 0px 0px 25px;
+}
+.works__container {
+   margin: 20px 0px 50px 25px;
+}
+.works__item {
+   width: 100px;
+   height: 150px;
+}
+
+.works__item a img {
+   width: 100px;
+   height: 150px;
+}
+
+.works__item p {
+   margin: 5px 0px 0px 0px;
+}
+
+.education ul li a {
+   font-size: 16px;
+   line-height: 25px;
+   margin: 0px 0px 0px 10px;
+   color: #000;
+}
+
+.education ul li a:hover {
+   text-decoration: underline;
+}
+.english a img {
+   width: 400px;
+   height: auto;
+}
+
+/*! FOOTER */
+
+.footer__container {
+   min-height: 50px;
+   margin: 25px 0px 0px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__git {
+   border-radius: 15px;
+   padding: 5px;
+   height: 45px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 16px;
+   color: #000;
+   font-weight: 600;
+}
+
+.footer__git:hover {
+   border-radius: 15px;
+   background: rgb(211, 148, 84);
+   transition: 1s;
+}
+
+.footer__git img {
+   margin: 0px 10px 0px 0px;
+}
+.footer__year {
+   font-size: 26px;
+   font-weight: 600;
+   color: #000;
+}
